@@ -1,0 +1,39 @@
+h2 {
+    color: rgb(9, 255, 214);
+    text-align: center;
+    background-color: rgb(41, 41, 44);
+}
+
+h1{
+    color: black;
+    border: 5px rgb(9, 255, 214) solid;
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    color: rgb(39, 255, 214);
+    margin-left: 10px;
+    border-left: 2px blue dotted;
+    border-bottom: 2px blue dotted;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p{
+    color: black;
+    margin: 0;
+    text-indent: 5ch;
+    text-align: justify;
+}
