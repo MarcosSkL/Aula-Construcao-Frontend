@@ -1,0 +1,11 @@
+Extensao REACT: ES7+ React/Redux/React-Native snippets v4.4.3 ==> Comando:"rafce": Cria um esboço de componentes no REACT
+
+###Criar Projeto Next.Js
+==> npx create-next-app@latest intruducao --use-npm --example https://github.com/vercel/next-learn/tree/master/basics/learn-starter
+
+###Executar o Projeto (started the Server).
+==> npm run dev
+
+
+==>Biblioteca Axios: faz requisições com API Externas
+==>Biblioteca Bootstrap: Usa bootstrap dentro do JSX: npm install react-bootstrap bootstrap
