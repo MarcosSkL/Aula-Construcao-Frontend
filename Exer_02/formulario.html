@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <ul>
+        <li><a href="./index.html">Pagina Inicial</a></li>
+        <li><a href="./tabela.html">Tabelas</a></li>
+    </ul>
+    <h1>Cadastro de Cliente</h1>
+    <form action="" method="post">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="phonenumber">Telefone:</label>
+            <input type="text" id="phonenumber" />
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" />
+        </div>
+        <div>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" />
+        </div>
+        <div>
+            <label for="sexo">Sexo:</label>
+            <label for="sexo">Masculino:</label>
+            <input type="radio" id="sexo" name="sexo" value="masculino" id="sexo"/>
+            <label for="sexo">Feminino:</label>
+            <input type="radio" id="sexo" name="sexo" value="feminino" id="sexo"/>
+        </div>
+        <div> 
+            UF: <select name="uf">
+                <option value="distrito Federal">DF</option>
+                <option value="são Paulo">SP</option>
+                <option value="bahia">BA</option>
+                <option value="goias">GO</option>
+                <option value="pernambuco">PE</option>
+                <option value="santa catarina">SC</option>
+                <option value="rio de janeiro">RJ</option>
+            </select>
+        </div>
+        <div> 
+            Cidade: <select name="city">
+                <option value="brasilia">Brasília</option>
+                <option value="sao Paulo">São Paulo</option>
+                <option value="salvador">Salvador</option>
+                <option value="goiania">Goiânia</option>
+                <option value="porto de galinhas">Porto de Galinhas</option>
+                <option value="florianopolis">Florianopolis</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Hobbies</legend>
+                <input type="checkbox" id="music" name="hobbies" value="musica"/>
+                <label for="hobbies">Musica</label>
+                <br>
+                <input type="checkbox" id="music" name="hobbies" value="musica"/>
+                <label for="hobbies">Futebol</label>
+                <br>   
+                <input type="checkbox" id="music" name="hobbies" value="musica"/>
+                <label for="hobbies">Teatro</label>
+                <br>
+                <input type="checkbox" id="music" name="hobbies" value="musica"/>
+                <label for="hobbies">Jogos</label>
+                <br>
+                <input type="checkbox" id="music" name="hobbies" value="musica"/>
+                <label for="hobbies">Cozinhar</label>
+            </fieldset>
+        </div>
+        <div>
+            <label for="comments">Observações:</label>
+            <textarea id="comments" rows="8" style="width:500px;"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+            <button type ="button">Voltar</button>
+        </div>
+
+    </form>
+</body>
+</html>

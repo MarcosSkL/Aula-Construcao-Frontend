@@ -1,0 +1,78 @@
+body{
+    background-color: rgba(125, 248, 250, 0.587);
+}
+#page1{
+    display: grid;
+    grid-template-areas: 
+    "head head"
+    "nav main";
+    
+}
+#page1 main{
+    grid-area: main;
+}
+
+#page1 main h2{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(41, 41, 44);
+    padding: 5px;
+}
+
+#page1 main p{
+    color: rgb(14, 25, 235);
+    text-indent: 5ch;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#page1 .titulop{
+    color: rgb(14, 25, 235);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#page1 header{
+    color: rgb(14, 25, 235);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    grid-area: head;
+
+}
+
+#page1 nav{
+    grid-area: nav;
+    width: 300px;
+    padding: 4px 5px 5px 5px;
+    margin-left: -50px;
+
+}
+
+#page1 nav ul li{
+    border-bottom: 1px solid #e90d0d;
+    border-left: 6px solid #e90d0d;
+    text-align: left;
+    list-style-type: none;
+}
+#page1 nav ul li a{
+    background-color: #414141;
+    font-size: 18px;
+    color: #fafcff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 15px 15px 8px;
+    display: flex;
+}
+
+#page1 nav ul li a:hover{
+    background-color: #a7a7a7;
+    color: #fafcff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 15px 15px 8px;
+    display: flex;
+}
+
+
