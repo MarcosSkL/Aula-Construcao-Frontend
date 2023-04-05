@@ -8,3 +8,4 @@ Extensao REACT: ES7+ React/Redux/React-Native snippets v4.4.3 ==> Comando:"rafce
 
 
 ==>Biblioteca Axios: faz requisições com API Externas
+==>Biblioteca Bootstrap: Usa bootstrap dentro do JSX: npm install react-bootstrap bootstrap
