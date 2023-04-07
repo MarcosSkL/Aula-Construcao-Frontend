@@ -6,26 +6,7 @@ import Pagina from '../components/Pagina';
 
 const Array = () => {
 
-  const pessoas = [
-    "Marcos",
-    "João",
-    "Maria"
-  ]
-  const carros = [
-    "Celta",
-    "Marea",
-    "Larborghine",
-    "Gol",
-    "Camaro",
-    "Doblo",
-    "Civic"
-  ]
-
-  const pessoa = {nome: "Orion", Idade: 40, telefone: "(61)1234-5678"}
-
-  const nome = "Marcos"
-  const idade = 29
-  const telefone = "(61) 996521488"
+  const carros = ["Celta", "Marea", "Larborghine", "Gol", "Camaro", "Doblo", "Civic"]
 
   return (
     <>
