@@ -1,26 +1,26 @@
 import React from 'react'
 import Cabecalho from './Cabecalho'
 import { Container } from 'react-bootstrap';
-import  'bootstrap/dist/css/bootstrap.min.css' ;
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Pagina = (props) => {
 
   return (
     <>
-        <Cabecalho />
-            <div className="bg-secondary py-3 text-white text-center mb-3">
-        <Container>
-            <h1>{props.titulo}</h1>
+      <Cabecalho />
+      <div className="bg-secondary p-5 bg-secondary bg-opacity-25 mb-4">
+        <Container className="px-5 mx-5">
+          <h1>{props.titulo}</h1>
         </Container>
-        </div>
+      </div>
 
-        <Container className='pb-5 mb-5'>
-          {props.children}
-        </Container>
+      <Container className='pb-5 mb-5'>
+        {props.children}
+      </Container>
 
-        <div style={{width: "100%"}} className="bg-secondary mt-5 position-fixed bottom-0 py-3 text-white text-center">
-            <p>Todos os direitos reservados</p>
-        </div>
+      <div style={{ width: "100%" }} className="bg-secondary mt-5 position-fixed bottom-0 py-3 text-white text-center">
+        <p>Todos os direitos reservados</p>
+      </div>
 
     </>
   )

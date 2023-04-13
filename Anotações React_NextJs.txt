@@ -3,6 +3,12 @@ Extensao REACT: ES7+ React/Redux/React-Native snippets v4.4.3 ==> Comando:"rafce
 ###Criar Projeto Next.Js
 ==> npx create-next-app@latest intruducao --use-npm --example https://github.com/vercel/next-learn/tree/master/basics/learn-starter
 
+###Instalar o BootStrap
+===> npm install react-bootstrap bootstrap
+
+###Instalar a Bliblioteca axios
+==>npm i axios
+
 ###Executar o Projeto (started the Server).
 ==> npm run dev
 
@@ -16,4 +22,18 @@ Extensao REACT: ES7+ React/Redux/React-Native snippets v4.4.3 ==> Comando:"rafce
               <p>{item}</p>
             ))}
 
-==>
+==>hooks, useTate, useEfect.
+
+const [filmes, setFilmes] = useState([])
+
+  useEffect(() => {
+    
+  }, [])
+
+
+
+useEffect(() => {
+    apiFilmes.get("/movie/popular").then(resultado => {
+      setFilmes(resultado.data.results)
+    })
+  }, [])
